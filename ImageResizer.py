@@ -141,7 +141,7 @@ def myfunc():
 
 	answer = ""
 	while answer not in ["Y","N"]:
-		answer = input("Want to save image? (Y/N): ")
+		answer = input("Want to save image? (Y/N): ").upper()
 
 	if answer == "Y":
 		new_filename = input("New file will be in same folder as old one. \n"
